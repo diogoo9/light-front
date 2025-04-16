@@ -1,0 +1,42 @@
+.title{
+  display: flex;
+  flex-direction: row;
+  align-items: "center";
+}
+
+.details{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-items: center;
+}
+
+.invoice{  
+  padding:  1rem;
+  margin: 0.3rem;
+  display: flex;
+  align-items: flex-start;
+  flex: 1;
+  flex-direction: row;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 15px;
+  
+}
+
+.body{
+  flex: 1;
+}
+
+.download{
+  background-color: #02231c;
+  color: white;
+  border: 0px;
+  border-radius: 13px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+

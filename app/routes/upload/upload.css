@@ -1,0 +1,25 @@
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.send{
+  background-color: #02231c;
+  color: white;
+  border: 0px;
+  border-radius: 13px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
